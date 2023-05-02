@@ -2,8 +2,8 @@
 
 ### Run Gin Example
 ```
-root@KBL02:/data/openapi# cd ./web-service-gin/
-root@KBL02:/data/openapi/web-service-gin# go run .
+$ cd ./web-service-gin/
+$ go run .
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
 [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
@@ -22,7 +22,7 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 
 ### Test with CURL
 ```
-root@KBL02:~# curl http://localhost:8080/albums
+$ curl http://localhost:8080/albums
 [
     {
         "id": "1",
@@ -48,7 +48,7 @@ root@KBL02:~# curl http://localhost:8080/albums
 ]
 ```
 ```
-root@KBL02:~# curl http://localhost:8080/albums/1/666
+$ curl http://localhost:8080/albums/1/666
 {
     "id": "1",
     "title": "Blue Train",
@@ -59,7 +59,7 @@ root@KBL02:~# curl http://localhost:8080/albums/1/666
 ```
 
 ```
-root@KBL02:~# curl http://localhost:8080/albums \
+$ curl http://localhost:8080/albums \
 >     --include \
 >     --header "Content-Type: application/json" \
 >     --request "POST" \
