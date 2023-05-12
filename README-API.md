@@ -5,33 +5,9 @@
      <th>API</th><th>method</th><th>Description</th><th>Result</th><th>Payload</th>
   </tr> 
   
+
   <tr valign="top">
-    <td> /telegraf/dashboard/create </td>    
-    <td> POST </td>    
-    <td> Create Dashboard      
-     </td>
-     <td>
-        <code>
-          ....
-        </code> 
-     </td>  
-     <td>TBD</td>     
-  </tr>
-  
-  <tr valign="top">
-    <td> /telegraf/dashboard/$id </td>    
-    <td> GET </td>    
-    <td> Return dashboard configuration  </td>
-     <td>
-        <code>
-          ....
-        </code> 
-     </td>  
-     <td>TBD</td>     
-  </tr>
- 
-  <tr valign="top">
-    <td> /telegraf/schema </td>    
+    <td> /telemetry/schema </td>    
     <td> GET </td>    
     <td> 
      return available buckets
@@ -52,7 +28,7 @@
   </tr>
  
  <tr valign="top">
-    <td> /telegraf/metrices </td>    
+    <td> /telemetry/metrices </td>    
     <td> GET </td>    
     <td> 
      return available metrices
@@ -86,7 +62,7 @@
   </tr>
  
  <tr valign="top">
-    <td> /telegraf/metrices/:id/:start/:end </td>    
+    <td> /telemetry/metrices/:id/:start/:end </td>    
     <td> GET </td>    
     <td> 
      return selected metric metric rows with specific period
