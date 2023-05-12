@@ -4,6 +4,32 @@
   <tr>
      <th>API</th><th>method</th><th>Description</th><th>Result</th><th>Payload</th>
   </tr> 
+  
+  <tr valign="top">
+    <td> /telegraf/dashboard/create </td>    
+    <td> POST </td>    
+    <td> Create Dashboard      
+     </td>
+     <td>
+        <code>
+          ....
+        </code> 
+     </td>  
+     <td>TBD</td>     
+  </tr>
+  
+  <tr valign="top">
+    <td> /telegraf/dashboard/$id </td>    
+    <td> GET </td>    
+    <td> Return dashboard configuration  </td>
+     <td>
+        <code>
+          ....
+        </code> 
+     </td>  
+     <td>TBD</td>     
+  </tr>
+ 
   <tr valign="top">
     <td> /telegraf/schema </td>    
     <td> GET </td>    
@@ -85,22 +111,7 @@
      <td>
      </td>     
   </tr>
- 
-  
- <tr valign="top">
-    <td> /telegraf/dashboard/create </td>    
-    <td> POST </td>    
-    <td> 
-      
-     </td>
-     <td>
-        <code>
-          ....
-        </code> 
-     </td>  
-     <td>
-     </td>     
-  </tr>
+   
   
 </table>
 
