@@ -2,10 +2,11 @@
 
 <table> 
   <tr>
-     <th>API</th><th>Description</th><th>Result</th><th>Payload</th>
+     <th>API</th><th>method</th><th>Description</th><th>Result</th><th>Payload</th>
   </tr> 
   <tr valign="top">
     <td> /telegraf/schema </td>    
+    <td> GET </td>    
     <td> 
      return available buckets
      </td>
@@ -26,6 +27,7 @@
  
  <tr valign="top">
     <td> /telegraf/metrices </td>    
+    <td> GET </td>    
     <td> 
      return available metrices
      </td>
@@ -59,6 +61,7 @@
  
  <tr valign="top">
     <td> /telegraf/metrices/:id/:start/:end </td>    
+    <td> GET </td>    
     <td> 
      return selected metric metric rows with specific period
      </td>
@@ -80,10 +83,25 @@
         </code> 
      </td>  
      <td>
-     </td>
-     
+     </td>     
   </tr>
  
+  
+ <tr valign="top">
+    <td> /telegraf/dashboard/create </td>    
+    <td> POST </td>    
+    <td> 
+      
+     </td>
+     <td>
+        <code>
+          ....
+        </code> 
+     </td>  
+     <td>
+     </td>     
+  </tr>
+  
 </table>
 
 # Golang Restful and OpenAPI tutorial
